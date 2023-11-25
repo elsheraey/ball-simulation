@@ -40,7 +40,6 @@ class Ball {
   createElement() {
     this.element = document.createElement("div");
     this.element.className = "ball";
-    this.element.innerText = "Ball";
     document.getElementById("simulationArea").appendChild(this.element);
     this.updateElement();
   }
