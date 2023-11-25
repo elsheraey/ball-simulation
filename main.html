@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ball Physics Simulation</title>
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    #simulationArea {
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+      background-color: lightgrey;
+      overflow: hidden;
+    }
+
+    .ball {
+      border-radius: 9999px;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      background-color: blue;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="simulationArea"></div>
+  <script src="simulation.js"></script>
+</body>
+
+</html>
